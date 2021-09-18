@@ -1,6 +1,5 @@
 *{
     margin: 0.5vh;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .container{
@@ -31,6 +30,15 @@
 .card-body{
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .profile{
     display: grid;
@@ -77,9 +85,12 @@ span{
 .add_user_header{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
 }
 
 .add_user_footer{
+    border-top: 1px solid black;
     display: flex;
     justify-content: flex-end;
 }

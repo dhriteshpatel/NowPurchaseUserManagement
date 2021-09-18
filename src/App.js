@@ -179,6 +179,14 @@ function App() {
                   {`${item.firstName} ${item.lastName}`.toUpperCase()}
                 </span>
               </div>
+              <div className="card_details">
+                <span>
+                  {item.username}
+                </span>
+                <span>
+                  {item.email}
+                </span>
+              </div>
             </div>
           );
         })}
